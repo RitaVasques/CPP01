@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   zombieHorde.cpp                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ritavasques <ritavasques@student.42.fr>    +#+  +:+       +#+        */
+/*   By: rivasque <rivasque@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/13 19:08:28 by ritavasques       #+#    #+#             */
-/*   Updated: 2024/06/13 20:02:44 by ritavasques      ###   ########.fr       */
+/*   Updated: 2024/07/02 11:20:18 by rivasque         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

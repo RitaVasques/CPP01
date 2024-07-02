@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   HumanB.cpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ritavasques <ritavasques@student.42.fr>    +#+  +:+       +#+        */
+/*   By: rivasque <rivasque@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/14 12:03:09 by ritavasques       #+#    #+#             */
-/*   Updated: 2024/06/25 15:10:07 by ritavasques      ###   ########.fr       */
+/*   Updated: 2024/07/02 10:56:58 by rivasque         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "HumanB.hpp"
 
-HumanB::HumanB( std::string name ) : _name(name) {}
+HumanB::HumanB( std::string name ) : _name(name), _typeB(NULL) {}
 
 HumanB::~HumanB( void ) {
     std::cout << this->_name << " was destroyed" << std::endl;

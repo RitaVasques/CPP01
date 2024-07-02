@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ritavasques <ritavasques@student.42.fr>    +#+  +:+       +#+        */
+/*   By: rivasque <rivasque@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/14 12:01:42 by ritavasques       #+#    #+#             */
-/*   Updated: 2024/06/25 15:16:37 by ritavasques      ###   ########.fr       */
+/*   Updated: 2024/07/02 10:54:45 by rivasque         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,10 @@ int main( void )
         jim.attack();
         club.setType("some other type of club");
         jim.attack();
+    }
+    {
+        HumanB john("John");
+        john.attack();
     }
     return 0;
 }
